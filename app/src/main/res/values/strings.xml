@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">便携式呼吸机</string>
+    <string name="speed_text">当前转速：%1$d</string>
+    <string name="temperature">温度：%1$.1f ℃</string>
+    <string name="humidity">湿度：%1$d%% RH</string><!--采用相对湿度表示,%%！！！-->
+    <string name="pressure">气压：%1$.2f kPa</string>
+    <!--其中%后面是占位符的位置，从1开始，
+          $ 后面是填充数据的类型
+         %d：表示整数型；
+         %f ：表示浮点型，其中f前面的.2 表示小数的位数
+         %c：表示字符串-->
+</resources>

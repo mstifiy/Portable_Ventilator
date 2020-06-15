@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--温度显示区域-->
+    <TextView
+        android:id="@+id/temperature_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/buttonstyle"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/temperature"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!--湿度显示区域-->
+    <TextView
+        android:id="@+id/humidity_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttonstyle"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/humidity"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!--温度显示区域-->
+    <TextView
+        android:id="@+id/pressure_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttonstyle"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/pressure"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!--转速图标区域-->
+    <ImageView
+        android:id="@+id/speed_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/speed"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <!--转速调节区域-->
+    <com.example.portable_ventilator.SpeedAdjustBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+</LinearLayout>
